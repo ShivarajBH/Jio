@@ -20,7 +20,7 @@ public class Ra1 extends HttpServlet {
 			    response.setContentType("text/html");  
 			    PrintWriter out = response.getWriter();  
 			    
-			    System.out.println("HI");
+			    System.out.println("Hello");
 			    
 			    String n=request.getParameter("uname");
 			    out.print("Hello" +n);
